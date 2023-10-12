@@ -43,5 +43,5 @@ let friendsAndFamily = ["Mohamed", "Ali", "Abdi", "Ifrah", "Jama", "Farah", "Mar
 // sayMyName("Waryaa")
 
 //convert the functions to arrow function
-// friendsAndFamily.forEach(name => console.log("Hi " + name)
-//     )
+friendsAndFamily.forEach(name => console.log("Hi " + name)
+    )

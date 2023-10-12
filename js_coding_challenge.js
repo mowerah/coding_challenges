@@ -1,10 +1,10 @@
 // write a traditional function that multiplies 2 numbers and returns the value
 
-function multiply(num1, num2) {
-    let result = num1 * num2;
-    return result;
-}
-console.log(multiply(5,3))
+// function multiply(num1, num2) {
+//     let result = num1 * num2;
+//     return result;
+// }
+// console.log(multiply(5,3))
 
 
 // write for loop that prints your name 10 times
@@ -47,3 +47,13 @@ console.log(multiply(5,3))
 
 //arrow functions
 //switch, maps, sets
+
+// conver the tradional function to an arrow function
+// function multiply(num1, num2) {
+//     let result = num1 * num2;
+//     return result;
+// }
+// console.log(multiply(5,3))
+
+let multiply = (num1, num2) => num1 * num2;
+console.log(multiply(5,3))
